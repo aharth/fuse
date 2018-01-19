@@ -44,7 +44,7 @@ First step: generate path features.
 
     $ java -jar bin/fuse-1.0.0-SNAPSHOT-jar-with-dependencies.jar FeatureExtraction -i Abu_Dhabi.nq -o Abu_Dhabi.nx
 
-# Build
+## Build
 
 You need Linked Data-Fu as dependency.
 

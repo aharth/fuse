@@ -1,0 +1,155 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<file:/tmp/owl-ld.n3>
+    <http://purl.org/dc/terms/contributor> <http://dblp.l3s.de/d2r/resource/authors/Markus_Kr%C3%B6tzsch>, <http://harth.org/andreas/foaf#ah> ;
+    <http://purl.org/dc/terms/creator> <http://aidanhogan.com/foaf/foaf.rdf#Aidan_Hogan> ;
+    <http://www.w3.org/2000/01/rdf-schema#comment> "The OWL LD profile in N3 (draft)" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <file:/tmp/owl-ld.n3> .
+
+<http://aidanhogan.com/foaf/foaf.rdf#Aidan_Hogan>
+    <http://www.w3.org/2002/07/owl#sameAs> <http://aidanhogan.com/foaf/foaf.rdf#Aidan_Hogan> .
+
+<http://dblp.l3s.de/d2r/resource/authors/Markus_Kr%C3%B6tzsch>
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dblp.l3s.de/d2r/resource/authors/Markus_Kr%C3%B6tzsch> .
+
+<http://example.org/ex1#bd>
+    <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://example.org/ex1#bd>, <http://example.org/ex2#dob> ;
+    <http://www.w3.org/2002/07/owl#equivalentProperty> <http://example.org/ex1#bd>, <http://example.org/ex2#dob> ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://example.org/ex1#bd> .
+
+<http://example.org/ex1#bp>
+    <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://example.org/ex1#bp>, <http://example.org/ex2#pob> ;
+    <http://www.w3.org/2002/07/owl#equivalentProperty> <http://example.org/ex1#bp>, <http://example.org/ex2#pob> ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://example.org/ex1#bp> .
+
+<http://example.org/ex1#lat>
+    <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://example.org/ex1#lat>, <http://example.org/ex2#latitude>, <http://example.org/ex3#lat> ;
+    <http://www.w3.org/2002/07/owl#equivalentProperty> <http://example.org/ex1#lat>, <http://example.org/ex2#latitude>, <http://example.org/ex3#lat> ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://example.org/ex1#lat> .
+
+<http://example.org/ex1#long>
+    <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://example.org/ex1#long>, <http://example.org/ex2#longitude>, <http://example.org/ex3#long> ;
+    <http://www.w3.org/2002/07/owl#equivalentProperty> <http://example.org/ex1#long>, <http://example.org/ex2#longitude>, <http://example.org/ex3#long> ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://example.org/ex1#long> .
+
+<http://example.org/ex1#occ>
+    <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://example.org/ex1#occ>, <http://example.org/ex2#job> ;
+    <http://www.w3.org/2002/07/owl#equivalentProperty> <http://example.org/ex1#occ>, <http://example.org/ex2#job> ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://example.org/ex1#occ> .
+
+<http://example.org/ex2#dob>
+    <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://example.org/ex1#bd>, <http://example.org/ex2#dob> ;
+    <http://www.w3.org/2002/07/owl#equivalentProperty> <http://example.org/ex1#bd>, <http://example.org/ex2#dob> ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://example.org/ex2#dob> .
+
+<http://example.org/ex2#job>
+    <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://example.org/ex1#occ>, <http://example.org/ex2#job> ;
+    <http://www.w3.org/2002/07/owl#equivalentProperty> <http://example.org/ex1#occ>, <http://example.org/ex2#job> ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://example.org/ex2#job> .
+
+<http://example.org/ex2#latitude>
+    <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://example.org/ex1#lat>, <http://example.org/ex2#latitude>, <http://example.org/ex3#lat> ;
+    <http://www.w3.org/2002/07/owl#equivalentProperty> <http://example.org/ex1#lat>, <http://example.org/ex2#latitude>, <http://example.org/ex3#lat> ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://example.org/ex2#latitude> .
+
+<http://example.org/ex2#longitude>
+    <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://example.org/ex1#long>, <http://example.org/ex2#longitude>, <http://example.org/ex3#long> ;
+    <http://www.w3.org/2002/07/owl#equivalentProperty> <http://example.org/ex1#long>, <http://example.org/ex2#longitude>, <http://example.org/ex3#long> ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://example.org/ex2#longitude> .
+
+<http://example.org/ex2#pob>
+    <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://example.org/ex1#bp>, <http://example.org/ex2#pob> ;
+    <http://www.w3.org/2002/07/owl#equivalentProperty> <http://example.org/ex1#bp>, <http://example.org/ex2#pob> ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://example.org/ex2#pob> .
+
+<http://example.org/ex3#lat>
+    <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://example.org/ex1#lat>, <http://example.org/ex2#latitude>, <http://example.org/ex3#lat> ;
+    <http://www.w3.org/2002/07/owl#equivalentProperty> <http://example.org/ex1#lat>, <http://example.org/ex2#latitude>, <http://example.org/ex3#lat> ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://example.org/ex3#lat> .
+
+<http://example.org/ex3#long>
+    <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://example.org/ex1#long>, <http://example.org/ex2#longitude>, <http://example.org/ex3#long> ;
+    <http://www.w3.org/2002/07/owl#equivalentProperty> <http://example.org/ex1#long>, <http://example.org/ex2#longitude>, <http://example.org/ex3#long> ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://example.org/ex3#long> .
+
+<http://harth.org/andreas/foaf#ah>
+    <http://www.w3.org/2002/07/owl#sameAs> <http://harth.org/andreas/foaf#ah> .
+
+<http://purl.org/dc/terms/contributor>
+    <http://www.w3.org/2002/07/owl#sameAs> <http://purl.org/dc/terms/contributor> .
+
+<http://purl.org/dc/terms/creator>
+    <http://www.w3.org/2002/07/owl#sameAs> <http://purl.org/dc/terms/creator> .
+
+rdf:type
+    <http://www.w3.org/2002/07/owl#sameAs> rdf:type .
+
+<http://www.w3.org/2000/01/rdf-schema#comment>
+    a <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2000/01/rdf-schema#comment> .
+
+<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>
+    a <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> .
+
+<http://www.w3.org/2000/01/rdf-schema#label>
+    a <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2000/01/rdf-schema#label> .
+
+<http://www.w3.org/2000/01/rdf-schema#seeAlso>
+    a <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2000/01/rdf-schema#seeAlso> .
+
+<http://www.w3.org/2000/01/rdf-schema#subClassOf>
+    <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
+
+<http://www.w3.org/2000/01/rdf-schema#subPropertyOf>
+    <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> .
+
+<http://www.w3.org/2002/07/owl#AnnotationProperty>
+    <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://www.w3.org/2002/07/owl#Class>
+    <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2002/07/owl#Class> .
+
+<http://www.w3.org/2002/07/owl#Nothing>
+    a <http://www.w3.org/2002/07/owl#Class> ;
+    <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Nothing>, <http://www.w3.org/2002/07/owl#Thing> ;
+    <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/2002/07/owl#Nothing> ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2002/07/owl#Nothing> .
+
+<http://www.w3.org/2002/07/owl#Thing>
+    a <http://www.w3.org/2002/07/owl#Class> ;
+    <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> ;
+    <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3.org/2002/07/owl#Thing> ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2002/07/owl#Thing> .
+
+<http://www.w3.org/2002/07/owl#backwardCompatibleWith>
+    a <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2002/07/owl#backwardCompatibleWith> .
+
+<http://www.w3.org/2002/07/owl#deprecated>
+    a <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2002/07/owl#deprecated> .
+
+<http://www.w3.org/2002/07/owl#equivalentClass>
+    <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2002/07/owl#equivalentClass> .
+
+<http://www.w3.org/2002/07/owl#equivalentProperty>
+    <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2002/07/owl#equivalentProperty> .
+
+<http://www.w3.org/2002/07/owl#incompatibleWith>
+    a <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2002/07/owl#incompatibleWith> .
+
+<http://www.w3.org/2002/07/owl#priorVersion>
+    a <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2002/07/owl#priorVersion> .
+
+<http://www.w3.org/2002/07/owl#sameAs>
+    <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2002/07/owl#sameAs> .
+
+<http://www.w3.org/2002/07/owl#versionInfo>
+    a <http://www.w3.org/2002/07/owl#AnnotationProperty> ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/2002/07/owl#versionInfo> .
+

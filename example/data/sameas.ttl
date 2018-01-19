@@ -1,0 +1,7 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ex1: <http://example.org/ex1#> .
+@prefix ex2: <http://example.org/ex2#> .
+@prefix ex3: <http://example.org/ex3#> .
+
+ex1:TimBL owl:sameAs ex2:TimBL .
+ex2:TimBL owl:sameAs ex3:TimBL .

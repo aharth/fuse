@@ -1,0 +1,15 @@
+@prefix ex1: <http://example.org/ex1#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex1:TimBL rdfs:label "Tim Berners-Lee" ; ex1:occ "Web Developer" ; ex1:occ "Webentwickler"@de ;
+          ex1:bd "1955-06-08" ; ex1:bp ex1:London .
+
+ex1:London ex1:long "-0.127" ; ex1:lat "51.507" .
+
+ex1:bd rdfs:label "birth date" .
+ex1:bp rdfs:label "birth place" .
+ex1:occ rdfs:label "occupation" .
+
+rdfs:label rdfs:label "label" .
+ex1:long rdfs:label "longitude" .
+ex1:lat rdfs:label "latitude" .

@@ -1,0 +1,43 @@
+_:genid1 <http://xmlns.com/foaf/0.1/focus> <http://example.org/ex1#TimBL> <file:///tmp/muses/example/data/timbl-focus.ttl> .
+_:genid1 <http://xmlns.com/foaf/0.1/focus> <http://example.org/ex2#TimBL> <file:///tmp/muses/example/data/timbl-focus.ttl> .
+_:genid1 <http://xmlns.com/foaf/0.1/focus> <http://example.org/ex3#TimBL> <file:///tmp/muses/example/data/timbl-focus.ttl> .
+<http://example.org/ex1#TimBL> <http://www.w3.org/2000/01/rdf-schema#label> "Tim Berners-Lee" <file:///tmp/muses/example/data/timbl-1.ttl> .
+<http://example.org/ex1#TimBL> <http://example.org/ex1#occ> "Web Developer" <file:///tmp/muses/example/data/timbl-1.ttl> .
+<http://example.org/ex1#TimBL> <http://example.org/ex1#occ> "Webentwickler"@de <file:///tmp/muses/example/data/timbl-1.ttl> .
+<http://example.org/ex1#TimBL> <http://example.org/ex1#bd> "1955-06-08" <file:///tmp/muses/example/data/timbl-1.ttl> .
+<http://example.org/ex1#TimBL> <http://example.org/ex1#bp> <http://example.org/ex1#London> <file:///tmp/muses/example/data/timbl-1.ttl> .
+<http://example.org/ex1#London> <http://example.org/ex1#long> "-0.127" <file:///tmp/muses/example/data/timbl-1.ttl> .
+<http://example.org/ex1#London> <http://example.org/ex1#lat> "51.507" <file:///tmp/muses/example/data/timbl-1.ttl> .
+<http://example.org/ex1#bd> <http://www.w3.org/2000/01/rdf-schema#label> "birth date" <file:///tmp/muses/example/data/timbl-1.ttl> .
+<http://example.org/ex1#bp> <http://www.w3.org/2000/01/rdf-schema#label> "birth place" <file:///tmp/muses/example/data/timbl-1.ttl> .
+<http://example.org/ex1#occ> <http://www.w3.org/2000/01/rdf-schema#label> "occupation" <file:///tmp/muses/example/data/timbl-1.ttl> .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/2000/01/rdf-schema#label> "label" <file:///tmp/muses/example/data/timbl-1.ttl> .
+<http://example.org/ex1#long> <http://www.w3.org/2000/01/rdf-schema#label> "longitude" <file:///tmp/muses/example/data/timbl-1.ttl> .
+<http://example.org/ex1#lat> <http://www.w3.org/2000/01/rdf-schema#label> "latitude" <file:///tmp/muses/example/data/timbl-1.ttl> .
+<http://example.org/ex2#TimBL> <http://www.w3.org/2000/01/rdf-schema#label> "Sir Tim Berners-Lee" <file:///tmp/muses/example/data/timbl-2.ttl> .
+<http://example.org/ex2#TimBL> <http://example.org/ex2#job> <http://example.org/ex2#WebDev> <file:///tmp/muses/example/data/timbl-2.ttl> .
+<http://example.org/ex2#TimBL> <http://example.org/ex2#dob> "1955-06-08" <file:///tmp/muses/example/data/timbl-2.ttl> .
+<http://example.org/ex2#TimBL> <http://example.org/ex2#pob> <http://example.org/ex2#London> <file:///tmp/muses/example/data/timbl-2.ttl> .
+<http://example.org/ex2#London> <http://example.org/ex2#longitude> "-0.127" <file:///tmp/muses/example/data/timbl-2.ttl> .
+<http://example.org/ex2#London> <http://example.org/ex2#latitude> "51.507" <file:///tmp/muses/example/data/timbl-2.ttl> .
+<http://example.org/ex2#WebDev> <http://xmlns.com/foaf/0.1/name> "Web Developer" <file:///tmp/muses/example/data/timbl-2.ttl> .
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/2000/01/rdf-schema#label> "name" <file:///tmp/muses/example/data/timbl-2.ttl> .
+<http://example.org/ex2#pob> <http://www.w3.org/2000/01/rdf-schema#label> "place of birth" <file:///tmp/muses/example/data/timbl-2.ttl> .
+<http://example.org/ex2#job> <http://www.w3.org/2000/01/rdf-schema#label> "occupation" <file:///tmp/muses/example/data/timbl-2.ttl> .
+<http://example.org/ex2#job> <http://www.w3.org/2000/01/rdf-schema#label> "profession" <file:///tmp/muses/example/data/timbl-2.ttl> .
+<http://example.org/ex2#dob> <http://www.w3.org/2000/01/rdf-schema#label> "date of birth" <file:///tmp/muses/example/data/timbl-2.ttl> .
+<http://example.org/ex2#longitude> <http://www.w3.org/2000/01/rdf-schema#label> "longitude" <file:///tmp/muses/example/data/timbl-2.ttl> .
+<http://example.org/ex2#latitude> <http://www.w3.org/2000/01/rdf-schema#label> "latitude" <file:///tmp/muses/example/data/timbl-2.ttl> .
+_:bn1 <http://example.org/ex3#since> "1998-03" <file:///tmp/muses/example/data/timbl-3.ttl> .
+_:bn1 <http://example.org/ex3#occ> <http://example.org/ex3#WebDeveloper> <file:///tmp/muses/example/data/timbl-3.ttl> .
+<http://example.org/ex3#TimBL> <http://example.org/ex3#work> _:bn1 <file:///tmp/muses/example/data/timbl-3.ttl> .
+<http://example.org/ex3#TimBL> <http://example.org/ex3#loc> <http://example.org/ex3#London> <file:///tmp/muses/example/data/timbl-3.ttl> .
+<http://example.org/ex3#London> <http://example.org/ex3#long> "-0.127" <file:///tmp/muses/example/data/timbl-3.ttl> .
+<http://example.org/ex3#London> <http://example.org/ex3#lat> "51.507" <file:///tmp/muses/example/data/timbl-3.ttl> .
+<http://example.org/ex3#occ> <http://www.w3.org/2000/01/rdf-schema#label> "occupation" <file:///tmp/muses/example/data/timbl-3.ttl> .
+<http://example.org/ex3#WebDeveloper> <http://www.w3.org/2000/01/rdf-schema#label> "Web Developer" <file:///tmp/muses/example/data/timbl-3.ttl> .
+<http://example.org/ex3#work> <http://www.w3.org/2000/01/rdf-schema#label> "works as" <file:///tmp/muses/example/data/timbl-3.ttl> .
+<http://example.org/ex3#loc> <http://www.w3.org/2000/01/rdf-schema#label> "location" <file:///tmp/muses/example/data/timbl-3.ttl> .
+<http://example.org/ex3#since> <http://www.w3.org/2000/01/rdf-schema#label> "since" <file:///tmp/muses/example/data/timbl-3.ttl> .
+<http://example.org/ex3#long> <http://www.w3.org/2000/01/rdf-schema#label> "longitude" <file:///tmp/muses/example/data/timbl-3.ttl> .
+<http://example.org/ex3#lat> <http://www.w3.org/2000/01/rdf-schema#label> "latitude" <file:///tmp/muses/example/data/timbl-3.ttl> .

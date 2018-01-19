@@ -1,0 +1,17 @@
+@prefix ex3: <http://example.org/ex3#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex3:TimBL ex3:work [ ex3:since "1998-03" ; ex3:occ ex3:WebDeveloper ] ; ex3:loc ex3:London .
+
+ex3:London ex3:long "-0.127" ; ex3:lat "51.507" .
+
+ex3:occ rdfs:label "occupation" .
+
+ex3:WebDeveloper rdfs:label "Web Developer" .
+
+ex3:work rdfs:label "works as" .
+ex3:loc rdfs:label "location" .
+ex3:since rdfs:label "since" .
+
+ex3:long rdfs:label "longitude" .
+ex3:lat rdfs:label "latitude" .

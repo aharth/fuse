@@ -1,0 +1,21 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ex1: <http://example.org/ex1#> .
+@prefix ex2: <http://example.org/ex2#> .
+@prefix ex3: <http://example.org/ex3#> .
+
+# used for logical mapping
+
+ex1:bd owl:equivalentProperty ex2:dob .
+
+ex1:occ owl:equivalentProperty ex2:job . 
+
+ex1:long owl:equivalentProperty ex2:longitude .
+ex1:lat owl:equivalentProperty ex2:latitude .
+
+ex1:long owl:equivalentProperty ex3:long .
+ex1:lat owl:equivalentProperty ex3:lat .
+
+ex1:bp owl:equivalentProperty ex2:pob .
+
+ex1:London owl:sameAs ex3:London .
+ex1:London owl:sameAs ex2:London .

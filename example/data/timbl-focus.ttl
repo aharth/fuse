@@ -1,0 +1,6 @@
+@prefix ex1: <http://example.org/ex1#> .
+@prefix ex2: <http://example.org/ex2#> .
+@prefix ex3: <http://example.org/ex3#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+_:genid1 foaf:focus ex1:TimBL , ex2:TimBL, ex3:TimBL .

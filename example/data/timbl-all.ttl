@@ -1,0 +1,96 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://example.org/ex1#London>
+    <http://example.org/ex1#lat> "51.507" ;
+    <http://example.org/ex1#long> "-0.127" .
+
+<http://example.org/ex1#TimBL>
+    <http://example.org/ex1#bd> "1955-06-08" ;
+    <http://example.org/ex1#bp> <http://example.org/ex1#London> ;
+    <http://example.org/ex1#occ> "Web Developer", "Webentwickler"@de ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Tim Berners-Lee" .
+
+<http://example.org/ex1#bd>
+    <http://www.w3.org/2000/01/rdf-schema#label> "birth date" .
+
+<http://example.org/ex1#bp>
+    <http://www.w3.org/2000/01/rdf-schema#label> "birth place" .
+
+<http://example.org/ex1#lat>
+    <http://www.w3.org/2000/01/rdf-schema#label> "latitude" .
+
+<http://example.org/ex1#long>
+    <http://www.w3.org/2000/01/rdf-schema#label> "longitude" .
+
+<http://example.org/ex1#occ>
+    <http://www.w3.org/2000/01/rdf-schema#label> "occupation" .
+
+<http://example.org/ex2#London>
+    <http://example.org/ex2#latitude> "51.507" ;
+    <http://example.org/ex2#longitude> "-0.127" .
+
+<http://example.org/ex2#TimBL>
+    <http://example.org/ex2#dob> "1955-06-08" ;
+    <http://example.org/ex2#job> <http://example.org/ex2#WebDev> ;
+    <http://example.org/ex2#pob> <http://example.org/ex2#London> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Sir Tim Berners-Lee" .
+
+<http://example.org/ex2#WebDev>
+    <http://xmlns.com/foaf/0.1/name> "Web Developer" .
+
+<http://example.org/ex2#dob>
+    <http://www.w3.org/2000/01/rdf-schema#label> "date of birth" .
+
+<http://example.org/ex2#job>
+    <http://www.w3.org/2000/01/rdf-schema#label> "occupation", "profession" .
+
+<http://example.org/ex2#latitude>
+    <http://www.w3.org/2000/01/rdf-schema#label> "latitude" .
+
+<http://example.org/ex2#longitude>
+    <http://www.w3.org/2000/01/rdf-schema#label> "longitude" .
+
+<http://example.org/ex2#pob>
+    <http://www.w3.org/2000/01/rdf-schema#label> "place of birth" .
+
+<http://example.org/ex3#London>
+    <http://example.org/ex3#lat> "51.507" ;
+    <http://example.org/ex3#long> "-0.127" .
+
+<http://example.org/ex3#TimBL>
+    <http://example.org/ex3#loc> <http://example.org/ex3#London> ;
+    <http://example.org/ex3#work> [
+        <http://example.org/ex3#occ> <http://example.org/ex3#WebDeveloper> ;
+        <http://example.org/ex3#since> "1998-03"
+    ] .
+
+<http://example.org/ex3#WebDeveloper>
+    <http://www.w3.org/2000/01/rdf-schema#label> "Web Developer" .
+
+<http://example.org/ex3#lat>
+    <http://www.w3.org/2000/01/rdf-schema#label> "latitude" .
+
+<http://example.org/ex3#loc>
+    <http://www.w3.org/2000/01/rdf-schema#label> "location" .
+
+<http://example.org/ex3#long>
+    <http://www.w3.org/2000/01/rdf-schema#label> "longitude" .
+
+<http://example.org/ex3#occ>
+    <http://www.w3.org/2000/01/rdf-schema#label> "occupation" .
+
+<http://example.org/ex3#since>
+    <http://www.w3.org/2000/01/rdf-schema#label> "since" .
+
+<http://example.org/ex3#work>
+    <http://www.w3.org/2000/01/rdf-schema#label> "works as" .
+
+<http://www.w3.org/2000/01/rdf-schema#label>
+    <http://www.w3.org/2000/01/rdf-schema#label> "label" .
+
+<http://xmlns.com/foaf/0.1/name>
+    <http://www.w3.org/2000/01/rdf-schema#label> "name" .
+
+[]
+    <http://xmlns.com/foaf/0.1/focus> <http://example.org/ex1#TimBL>, <http://example.org/ex2#TimBL>, <http://example.org/ex3#TimBL> .
+

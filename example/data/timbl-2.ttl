@@ -1,0 +1,19 @@
+@prefix ex2: <http://example.org/ex2#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+ex2:TimBL rdfs:label "Sir Tim Berners-Lee" ; ex2:job ex2:WebDev ; ex2:dob "1955-06-08" ;
+          ex2:pob ex2:London .
+
+ex2:London ex2:longitude "-0.127" ; ex2:latitude "51.507" .
+
+ex2:WebDev foaf:name "Web Developer" .
+
+foaf:name rdfs:label "name" .
+
+ex2:pob rdfs:label "place of birth" .
+ex2:job rdfs:label "occupation" , "profession" .
+ex2:dob rdfs:label "date of birth" .
+
+ex2:longitude rdfs:label "longitude" .
+ex2:latitude rdfs:label "latitude" .

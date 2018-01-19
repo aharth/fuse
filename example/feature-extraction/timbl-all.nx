@@ -1,0 +1,14 @@
+<http://example.org/ex2#TimBL> <http://example.org/ex2#dob> "1955-06-08" "date of birth" <file:///tmp/muses/example/data/timbl-2.ttl> .
+<http://example.org/ex2#TimBL> <http://www.w3.org/2000/01/rdf-schema#label> "Sir Tim Berners-Lee" "label" <file:///tmp/muses/example/data/timbl-2.ttl> .
+<http://example.org/ex1#TimBL> <http://example.org/ex1#bd> "1955-06-08" "birth date" <file:///tmp/muses/example/data/timbl-1.ttl> .
+<http://example.org/ex1#TimBL> <http://www.w3.org/2000/01/rdf-schema#label> "Tim Berners-Lee" "label" <file:///tmp/muses/example/data/timbl-1.ttl> .
+<http://example.org/ex1#TimBL> <http://example.org/ex1#occ> "Web Developer" "occupation" <file:///tmp/muses/example/data/timbl-1.ttl> .
+<http://example.org/ex2#TimBL> <http://example.org/ex2#job> <http://example.org/ex2#WebDev> <http://xmlns.com/foaf/0.1/name> "Web Developer" "occupation" "name" <file:///tmp/muses/example/data/timbl-2.ttl> .
+<http://example.org/ex3#TimBL> <http://example.org/ex3#loc> <http://example.org/ex3#London> <http://example.org/ex3#lat> "51.507" "location" "latitude" <file:///tmp/muses/example/data/timbl-3.ttl> .
+<http://example.org/ex1#TimBL> <http://example.org/ex1#bp> <http://example.org/ex1#London> <http://example.org/ex1#long> "-0.127" "birth place" "longitude" <file:///tmp/muses/example/data/timbl-1.ttl> .
+<http://example.org/ex3#TimBL> <http://example.org/ex3#loc> <http://example.org/ex3#London> <http://example.org/ex3#long> "-0.127" "location" "longitude" <file:///tmp/muses/example/data/timbl-3.ttl> .
+<http://example.org/ex2#TimBL> <http://example.org/ex2#pob> <http://example.org/ex2#London> <http://example.org/ex2#longitude> "-0.127" "place of birth" "longitude" <file:///tmp/muses/example/data/timbl-2.ttl> .
+<http://example.org/ex1#TimBL> <http://example.org/ex1#bp> <http://example.org/ex1#London> <http://example.org/ex1#lat> "51.507" "birth place" "latitude" <file:///tmp/muses/example/data/timbl-1.ttl> .
+<http://example.org/ex2#TimBL> <http://example.org/ex2#pob> <http://example.org/ex2#London> <http://example.org/ex2#latitude> "51.507" "place of birth" "latitude" <file:///tmp/muses/example/data/timbl-2.ttl> .
+<http://example.org/ex2#TimBL> <http://example.org/ex2#job> <http://example.org/ex2#WebDev> <http://xmlns.com/foaf/0.1/name> "Web Developer" "profession" "name" <file:///tmp/muses/example/data/timbl-2.ttl> .
+<http://example.org/ex3#TimBL> <http://example.org/ex3#work> _:bn1 <http://example.org/ex3#since> "1998-03" "works as" "since" <file:///tmp/muses/example/data/timbl-3.ttl> .

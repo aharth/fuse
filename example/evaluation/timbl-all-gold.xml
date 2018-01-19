@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clusters xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <cluster why="property">
+    <path-feature>
+      <triple>
+        <s iri="http://example.org/ex1#TimBL"/>
+        <p iri="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <o literal="Tim Berners-Lee"/>
+      </triple>
+    </path-feature>
+    <path-feature>
+      <triple>
+        <s iri="http://example.org/ex2#TimBL"/>
+        <p iri="http://xmlns.com/foaf/0.1/name"/>
+        <o literal="Sir Tim Berners-Lee"/>
+      </triple>
+    </path-feature>
+  </cluster>
+  <cluster why="property">
+    <path-feature>
+      <triple>
+        <s iri="http://example.org/ex1#TimBL"/>
+        <p iri="http://example.org/ex1#occ"/>
+        <o literal="Web Developer"/>
+      </triple>
+    </path-feature>
+    <path-feature>
+      <triple>
+        <s iri="http://example.org/ex2#TimBL"/>
+        <p iri="http://example.org/ex2#job"/>
+        <o iri="http://example.org/ex2#webDev"/>
+      </triple>
+    </path-feature>
+    <path-feature>
+      <triple>
+        <s iri="http://example.org/ex3#TimBL"/>
+        <p iri="http://example.org/ex3#work"/>
+        <o iri="http://example.org/ex3#work42"/>
+      </triple>
+    </path-feature>
+  </cluster>
+  <cluster why="property">
+    <path-feature>
+      <triple>
+        <s iri="http://example.org/ex1#TimBL"/>
+        <p iri="http://example.org/ex1#bd"/>
+        <o literal="1955-06-08"/>
+      </triple>
+    </path-feature>
+    <path-feature>
+      <triple>
+        <s iri="http://example.org/ex2#TimBL"/>
+        <p iri="http://example.org/ex2#dob"/>
+        <o literal="1955-06-08"/>
+      </triple>
+    </path-feature>
+  </cluster>
+  <cluster why="property">
+    <path-feature>
+      <triple>
+        <s iri="http://example.org/ex1#TimBL"/>
+        <p iri="http://example.org/ex1#bp"/>
+        <o iri="http://example.org/ex1#London"/>
+      </triple>
+    </path-feature>
+    <path-feature>
+      <triple>
+        <s iri="http://example.org/ex2#TimBL"/>
+        <p iri="http://example.org/ex2#pob"/>
+        <o iri="http://example.org/ex2#London"/>
+      </triple>
+    </path-feature>
+    <path-feature>
+      <triple>
+        <s iri="http://example.org/ex3#TimBL"/>
+        <p iri="http://example.org/ex3#loc"/>
+        <o iri="http://example.org/ex3#London"/>
+      </triple>
+    </path-feature>
+  </cluster>
+</clusters>
